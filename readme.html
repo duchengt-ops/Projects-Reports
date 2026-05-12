@@ -360,8 +360,8 @@ are implemented in R with reproducible RMarkdown reports.</p>
 <hr />
 <div id="projects" class="section level2">
 <h2>Projects</h2>
-<div id="hw1-foundations-knn-discriminant-analysis" class="section level3">
-<h3>HW1 — Foundations: kNN &amp; Discriminant Analysis</h3>
+<div id="foundations-knn-discriminant-analysis" class="section level3">
+<h3>Foundations: kNN &amp; Discriminant Analysis</h3>
 <p>Visualization of the bias-variance tradeoff as a function of k.
 Side-by-side comparison of k-NN and LDA decision boundaries on
 overlapping Gaussian classes.<br />
@@ -369,12 +369,12 @@ overlapping Gaussian classes.<br />
 <code>ggplot2</code></p>
 <hr />
 </div>
-<div id="hw2-high-dimensional-classification" class="section level3">
-<h3>HW2 — High-Dimensional Classification</h3>
-<p><strong>Dataset 1 — Prostate Cancer Genomics</strong> (n ≪ p = 500
-gene features): Compared LDA, QDA, Naive Bayes, and SVM over 50
-stratified random splits. Analyzed rank deficiency, pooled vs. sample
-covariance structure, and multivariate normality via Mardia’s test.</p>
+<div id="high-dimensional-classification" class="section level3">
+<h3>High-Dimensional Classification</h3>
+<p><strong>Dataset 1 — Prostate Cancer Genomics</strong> (<span class="math inline">\(n \ll p = 500\)</span> gene features): Compared
+LDA, QDA, Naive Bayes, and SVM over 50 stratified random splits.
+Analyzed rank deficiency, pooled vs. sample covariance structure, and
+multivariate normality via Mardia’s test.</p>
 <p><strong>Dataset 2 — Spam Detection</strong>
 (<code>MASS::spam</code>): Same classifier suite with near-zero variance
 filtering and overfitting diagnostics.<br />
@@ -382,11 +382,11 @@ filtering and overfitting diagnostics.<br />
 <code>pROC</code>, <code>MVN</code>, <code>fields</code></p>
 <hr />
 </div>
-<div id="hw3-regression-image-classification" class="section level3">
-<h3>HW3 — Regression &amp; Image Classification</h3>
+<div id="regression-image-classification" class="section level3">
+<h3>Regression &amp; Image Classification</h3>
 <p><strong>Regression — <code>datafls</code>:</strong> Benchmarked
 regression trees, Random Forest, GBM, and Elastic Net on economic
-cross-section data. Evaluated with RMSE, MAE, and R².</p>
+cross-section data. Evaluated with RMSE, MAE, and <span class="math inline">\(\mathbb{R}^2\)</span>.</p>
 <p><strong>Classification — MNIST (60,000 training / 10,000
 test):</strong> 10-class handwritten digit recognition. Pipeline: PCA
 dimensionality reduction (87 PCs → 90% variance), feature engineering
@@ -399,19 +399,18 @@ Best test accuracy: <strong>SVM RBF on PCA — 96.25%</strong><br />
 <code>pdp</code></p>
 <hr />
 </div>
-<div id="hw4-advanced-machine-learning" class="section level3">
-<h3>HW4 — Advanced Machine Learning</h3>
+<div id="advanced-machine-learning" class="section level3">
+<h3>Advanced Machine Learning</h3>
 <p><strong>Exercise 2 — Financial Fraud Detection</strong> (n=10,000,
 p=50, severe class imbalance): Engineered polynomial and interaction
 features, applied SMOTE and inverse-frequency weighting. Trained Elastic
 Net, RF, XGBoost, SVM (RBF), and MLP via Bayesian hyperparameter
 optimization. Uncertainty quantified using three split-conformal
 prediction methods.</p>
-<p><strong>Exercise 3 — Proteomics Cancer Regression</strong> (p=200
-&gt; n, rank deficient): Applied Ridge, Lasso, Elastic Net, Adaptive
-Lasso, SCAD, Group Lasso, Horseshoe, and Spike-and-Slab. Variable
-selection reproducibility assessed via pairwise Jaccard similarity
-across methods.</p>
+<p><strong>Exercise 3 — Proteomics Cancer Regression</strong> (<span class="math inline">\(p=200 &gt; n\)</span>, rank deficient): Applied
+Ridge, Lasso, Elastic Net, Adaptive Lasso, SCAD, Group Lasso, Horseshoe,
+and Spike-and-Slab. Variable selection reproducibility assessed via
+pairwise Jaccard similarity across methods.</p>
 <p><strong>Exercise 4 — Causal ML &amp; Interpretable AI:</strong>
 Implemented Double ML / Debiased ML framework with cross-fitting to
 remove regularization bias in causal effect estimation. Applied Causal
@@ -433,8 +432,9 @@ hw4-advanced/</code></pre>
 </div>
 <div id="requirements" class="section level2">
 <h2>Requirements</h2>
-<p>All reports knit with R ≥ 4.3. Package installation lines are
-included (commented) at the top of each <code>.Rmd</code> file.</p>
+<p>All reports knit with R <span class="math inline">\(\geq\)</span>
+4.3. Package installation lines are included (commented) at the top of
+each <code>.Rmd</code> file.</p>
 </div>
 </div>
 
