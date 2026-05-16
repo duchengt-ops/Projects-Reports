@@ -102,7 +102,7 @@ required), making this project **fully self-contained and reproducible**.
 
 ---
 
-## Key Results
+## Results
 
 | Series | Best Model | Forecast Coverage |
 |--------|------------|:-----------------:|
