@@ -71,10 +71,10 @@ FDR-controlled variable selection on proteomics data.
 ## Structure
 
 ```
-hw1-foundations/
-hw2-high-dim-classification/
-hw3-regression-and-mnist/
-hw4-advanced/
+1-foundations/
+2-high-dim-classification/
+3-regression-and-mnist/
+4-advanced/
 ```
 
 ## Requirements
