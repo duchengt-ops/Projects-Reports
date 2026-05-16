@@ -8,7 +8,7 @@ are implemented in R with reproducible RMarkdown reports.
 
 ## Projects
 
-### HW1 — Foundations: kNN & Discriminant Analysis
+### 1 — Foundations: kNN & Discriminant Analysis
 Visualization of the bias-variance tradeoff as a function of k.
 Side-by-side comparison of k-NN and LDA decision boundaries on
 overlapping Gaussian classes.  
@@ -16,7 +16,7 @@ overlapping Gaussian classes.
 
 ---
 
-### HW2 — High-Dimensional Classification
+### 2 — High-Dimensional Classification
 **Dataset 1 — Prostate Cancer Genomics** (n ≪ p = 500 gene features):
 Compared LDA, QDA, Naive Bayes, and SVM over 50 stratified random
 splits. Analyzed rank deficiency, pooled vs. sample covariance structure,
@@ -28,7 +28,7 @@ with near-zero variance filtering and overfitting diagnostics.
 
 ---
 
-### HW3 — Regression & Image Classification
+### 3 — Regression & Image Classification
 
 **Regression — `datafls`:** Benchmarked regression trees, Random Forest,
 GBM, and Elastic Net on economic cross-section data. Evaluated with RMSE,
@@ -45,7 +45,7 @@ Best test accuracy: **SVM RBF on PCA — 96.25%**
 
 ---
 
-### HW4 — Advanced Machine Learning
+### 4 — Advanced Machine Learning
 
 **Exercise 2 — Financial Fraud Detection** (n=10,000, p=50, severe class
 imbalance): Engineered polynomial and interaction features, applied SMOTE
