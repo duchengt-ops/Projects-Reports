@@ -1,3 +1,6 @@
+# Academic Reports and personal Projects.
+
+
 # STAT 547 — Data Mining & Statistical Learning
 
 Coursework from STAT 547 (Data Mining), covering supervised learning,
