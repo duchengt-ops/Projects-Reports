@@ -146,21 +146,6 @@ stationary Taco model has bounded forecast uncertainty, while the non-stationary
 
 ---
 
-## Repository Structure
-
-```
-stat335-google-trends-sarima/
-├── README.md
-└── google_trends_timeseries.Rmd   ← fully self-contained; data embedded inline
-```
-
-No external data files are needed. Knit directly in RStudio:
-
-```r
-rmarkdown::render("google_trends_timeseries.Rmd")
-```
-
----
 
 ## Requirements
 
